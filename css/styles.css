@@ -1,0 +1,12 @@
+div.card {
+    background-color: #888;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 97px;
+    float: left;
+}
+
+.top-100 {
+    margin-top: 100px;
+}

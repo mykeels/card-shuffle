@@ -1,13 +1,12 @@
 const Card = Vue.component('card', {
     props: ['left', 'top'],
     computed: {
-        style() {
-            return {
-                'background-image': 'url(\img/cards.png\') ' + this.left + ' ' + this.top
-            }
+        backgroundImage() {
+            return 'url(\'img/cards.png\') ' + this.left + 'px ' + this.top + 'px'
         }
     },
-    render() {
-        return `<div class="card" :style="style"></div>`
+    template: `<div class="card" :style="{ background: backgroundImage }"></div>`,
+    mounted() {
+        console.log(this.backgroundImage)
     }
 })

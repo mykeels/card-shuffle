@@ -7,6 +7,6 @@ const Card = Vue.component('card', {
     },
     template: `<div class="card" :style="{ background: backgroundImage }"></div>`,
     mounted() {
-        console.log(this.backgroundImage)
+        
     }
 })

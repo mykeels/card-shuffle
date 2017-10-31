@@ -1,12 +1,19 @@
+body { 
+    padding: 5em; font-family: monospace; line-height: 1.5
+}
+
 div.card {
-    background-color: #888;
     height: 400px;
     background-repeat: no-repeat;
     width: 72px;
     height: 97px;
-    float: left;
+    display: inline-block;
 }
 
 .top-100 {
     margin-top: 100px;
+}
+
+.text-center {
+    text-align: center;
 }

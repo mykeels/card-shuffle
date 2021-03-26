@@ -2,6 +2,12 @@ body {
     padding: 5em; font-family: monospace; line-height: 1.5
 }
 
+div.cards {
+    column-count: 13;
+    /* column-gap: 1em; */
+    width: 90%;
+}
+
 div.card {
     height: 400px;
     background-repeat: no-repeat;
